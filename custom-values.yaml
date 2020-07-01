@@ -360,10 +360,10 @@ Persistence:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
-  # StorageClass: "-"
+  StorageClass: "jenkins" # Added by ddyynngg
   Annotations: {}
   AccessMode: ReadWriteOnce
-  Size: 5Gi # Added by alicek106
+  Size: 8Gi # Added by ddyynngg
   volumes:
   #  - name: nothing
   #    emptyDir: {}
