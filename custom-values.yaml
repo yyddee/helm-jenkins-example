@@ -9,7 +9,7 @@
 # fullnameOverride:
 
 Master:
-  Name: jenkins-master
+  ComponentName: jenkins-master
   Image: "jenkins/jenkins"
   ImageTag: "lts"
   ImagePullPolicy: "Always"
